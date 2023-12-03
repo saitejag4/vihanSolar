@@ -1,0 +1,66 @@
+.nav-bar{
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.imgLogo{
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.fieldIcons{
+    text-align: right;
+}
+.nav-bar .fieldIcons ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    padding: 0, 5px;
+}
+.nav-bar .fieldIcons ul li{
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    padding-top: 15px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: rgba(178, 144, 36, 1);
+}
+.nav-bar ul li:hover{
+    font-weight: bold;
+    background:  rgb(224, 224, 224);
+    border-radius: 3px;
+}
+.sub-menu-1{
+    display: none;
+}
+.nav-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background:  rgb(224, 224, 224);
+    margin-left: -15px;
+}
+.nav-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 0, 10px;
+}
+.nav-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 0, 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.nav-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.nav-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: rgba(178, 144, 36, 1);
+    font-style: italic;
+}

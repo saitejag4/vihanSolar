@@ -1,0 +1,49 @@
+.aboutUsText{
+    padding-top: 30px;
+}
+.sub-heading{
+    color: rgba(178, 144, 36, 1);
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    font-weight: 400;
+    /* text-transform: unset; */
+    letter-spacing: 2px;
+    max-width : 100%
+}
+.line-heading{
+    max-width: 100%;
+}
+.sub-head{
+    color: rgba(178, 144, 36, 1);
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-weight: 400;
+    /* text-transform: unset; */
+    letter-spacing: 1px;
+    max-width : 100%
+}
+.line-head{
+    max-width: 100%;
+}
+.textClass{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.paraClass{
+    margin: 10px;
+    padding: 10px;
+}
+.cardHolder{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    z-index: 0;
+}
+.card{
+    border: none;
+}
