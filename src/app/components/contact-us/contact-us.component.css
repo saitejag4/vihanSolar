@@ -1,0 +1,83 @@
+.contactUsText{
+    padding-top: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.sub-heading{
+    color: rgba(178, 144, 36, 1);
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    font-weight: 400;
+    /* text-transform: unset; */
+    letter-spacing: 2px;
+    max-width : 100%
+}
+.line-heading{
+    max-width: 100%;
+}
+.hhead{
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    color: rgb(27, 27, 27);
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+.quote{
+    font-size: 20px;
+    font-weight: bold;
+}
+.msgButton{
+    border-radius: 25px;
+    padding: 10px 25px;
+    background-color: rgb(69, 90, 100);
+    color: white;
+}
+.buttonText{
+    font-size: 15px;
+    font-weight: bold;
+}
+.companyName{
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    color: rgb(27, 27, 27);
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    text-shadow: 1em;
+    margin: 20px;
+}
+.address{
+    font-size: 20px;
+    margin-bottom: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    color: rgb(27, 27, 27);
+}
+.mblNum{
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    color: rgba(178, 144, 36, 1);
+}
+.email{
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    color: rgba(178, 144, 36, 1);
+}
+/* .icon{
+    padding-right: 10px;
+    color: #25D366;
+} */
+.wtsappImg{
+    background: none;
+}
