@@ -1,3 +1,14 @@
-.productsText{
-    padding-top: 70px;
+.productsPage{
+    padding-top: 80px;
+    margin: auto;
+    width: 80%;
+}
+.boldLetters{
+    color: rgb(52, 62, 62);
+    padding: 5px;
+    font-size: 25px;
+    /* height: 15px */
+}
+.italicsLetters{
+    padding-left: 75px;
 }
