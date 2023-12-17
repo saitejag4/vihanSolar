@@ -1,7 +1,9 @@
 .contactUsText{
-    padding-top: 70px;
+    padding-top: 40px;
     text-align: center;
     font-family: sans-serif;
+    margin: auto;
+    width: 80%;
 }
 .sub-heading{
     color: rgba(178, 144, 36, 1);
@@ -12,7 +14,7 @@
     font-weight: 400;
     /* text-transform: unset; */
     letter-spacing: 2px;
-    max-width : 100%
+    max-width : 100%;
 }
 .line-heading{
     max-width: 100%;
@@ -30,6 +32,9 @@
 .quote{
     font-size: 20px;
     font-weight: bold;
+}
+.paraDiv{
+    padding: 25px 0;
 }
 .msgButton{
     border-radius: 25px;
@@ -74,10 +79,61 @@
     font-weight: 400;
     color: rgba(178, 144, 36, 1);
 }
-/* .icon{
-    padding-right: 10px;
-    color: #25D366;
-} */
-.wtsappImg{
-    background: none;
+.middle-heading{
+    color: rgba(178, 144, 36, 1);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    font-weight: 400;
+    /* text-transform: unset; */
+    letter-spacing: 2px;
+    max-width : 100%;
+}
+.wtsapSvg{
+    height: 20px;
+    margin: 5px;
+    align-items: center;
+}
+.center{
+    margin: auto;
+    width: 35%;
+    /* border: 3px solid green; */
+
+}
+.socialLogos{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+.instaLogo{
+    margin: 5px;
+    padding: 5px;
+    height: 60px;
+}
+.linkedinLogo{
+    margin: 5px;
+    padding: 5px;
+    height: 58px;
+}
+.pinterestLogo{
+    margin: 5px;
+    padding: 5px;
+    height: 55px;
+}
+.twitterLogo{
+    margin: 5px;
+    padding: 5px;
+    height: 63px;
+}
+.youtubeLogo{
+    margin: 5px;
+    padding: 5px;
+    height: 60px;
+}
+.copyrightcss{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 50px;
 }
