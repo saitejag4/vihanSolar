@@ -44,6 +44,18 @@
     margin: 10px;
     padding: 10px;
 }
+.commitments{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 8px;
+}
+.visionMission{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
 .cardHolder{
     display: flex;
     flex-wrap: wrap;
@@ -58,4 +70,15 @@
     /* width: 400px; */
     margin: 70px 0;
     border-radius: 10px;
+}
+.copyrightcss{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+.copyrightcss{
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 100px;
 }

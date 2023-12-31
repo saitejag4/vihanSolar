@@ -1,9 +1,10 @@
 .nav-bar{
     text-align: center;
-    background-color: rgb(224, 224, 224);
+    background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 .navText{
     width: 90%;
@@ -33,11 +34,15 @@
 }
 .nav-bar ul li a{
     text-decoration: none;
+    color: black;
+}
+.nav-bar ul li a:hover{
+    text-decoration: none;
     color: rgba(178, 144, 36, 1);
 }
 .nav-bar ul li:hover{
     font-weight: bold;
-    background:  rgb(224, 224, 224);
+    /* background:  white; */
     border-radius: 3px;
 }
 .sub-menu-1{
@@ -68,3 +73,5 @@
     color: rgba(178, 144, 36, 1);
     font-style: italic;
 }
+
+/* rgba(178, 144, 36, 1); */

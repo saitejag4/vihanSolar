@@ -1,6 +1,12 @@
 .productsPage{
     padding-top: 80px;
-    margin: auto;
+    margin: 0 auto;
+    width: 70%;
+}
+.productsIntro{
+    margin: 0 auto;
+    text-align: justify;
+    text-justify: inter-word;
     width: 80%;
 }
 .boldLetters{
@@ -11,4 +17,29 @@
 }
 .italicsLetters{
     padding-left: 75px;
+    font-size: larger;
+}
+.collapsibleProducts{
+    margin: 0 auto;
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.headerCenter{
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.cardCenter{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.chooseUs{
+    margin: 0 auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.copyrightcss{
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 100px;
 }
