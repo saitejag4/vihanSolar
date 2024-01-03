@@ -10,10 +10,15 @@
     justify-content: space-between;
 }
 
-.hhead {
-    font-size: 64px;
-    font-weight: 400;
-    line-height: 72px;
+.hSolarText {
+    position: relative;
+}
+
+.textHome {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
 }
 
 .htext {
@@ -34,12 +39,20 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    margin: 50px;
+}
+
+.homeCard {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 15px;
 }
 
 .servicesHeader {
+    text-align: center;
     font-size: 22px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 38px;
     letter-spacing: -0.03em;
 }
 
@@ -47,6 +60,7 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    margin: 50px;
 }
 
 .servicesText {
@@ -79,38 +93,56 @@
     background-position: center; */
     position: relative;
 }
-.handshakeImg{
+
+.handshakeImg {
     height: 450px;
     width: 100%;
     opacity: 0.8;
     filter: brightness(40%);
+    border-radius: 10px;
+    margin: 25px;
 }
-.textOnImage{
+
+.textOnImage {
     color: #fff;
     position: absolute;
-    top: 50%; 
-    left: 50%; 
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
-.redText{
+
+.redText {
+    color: red;
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: -0.03em;
 }
-.h1Text{
+
+.h1Text {
     font-size: 42px;
     font-weight: 400;
     line-height: 48px;
     letter-spacing: -0.04em;
 }
-.number{
+
+.number {
     font-size: 40px;
     font-family: MaterialCommunityIcons;
     color: rgb(226, 54, 54);
 }
-.aboutUsCards{
+
+.aboutUsCards {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+}
+.questionText {
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+.solarSoltion {
+    margin: 25px;
 }
