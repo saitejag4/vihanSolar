@@ -11,5 +11,9 @@ export class ContactUsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  redirectToWhatsApp(): void {
+    const whatsappLink = `https://wa.me/${this.phoneNumber}?text=${encodeURIComponent(this.message)}`;
+    window.location.href = whatsappLink;
+  }
 
 }
