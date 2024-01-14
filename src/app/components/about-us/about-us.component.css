@@ -61,9 +61,11 @@
     flex-wrap: wrap;
     text-align: center;
     z-index: 0;
+    margin: auto;
 }
 .card{
     border: none;
+    margin: 5px;
 }
 .aboutUsSectionImage{
     height: 350px;
