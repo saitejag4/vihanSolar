@@ -10,6 +10,13 @@
     justify-content: space-between;
 }
 
+.copyrightcss{
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 100px;
+}
+
 .hSolarText {
     position: relative;
 }
@@ -99,8 +106,8 @@
     width: 100%;
     opacity: 0.8;
     filter: brightness(40%);
-    border-radius: 10px;
-    margin: 25px;
+    border-radius: 50px;
+    padding: 25px;
 }
 
 .textOnImage {
@@ -120,7 +127,7 @@
 }
 
 .h1Text {
-    font-size: 42px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 48px;
     letter-spacing: -0.04em;
@@ -137,12 +144,64 @@
     flex-wrap: wrap;
     text-align: center;
 }
+
 .questionText {
     margin: 10px;
     font-size: large;
     font-weight: bold;
     font-style: italic;
 }
+
 .solarSoltion {
     margin: 25px;
+}
+
+.rotatingCards {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cardRotate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin: 0 5px;
+    padding: 30px;
+    height: 400px;
+}
+
+.cardFront {
+    transform: rotateY(0deg);
+}
+
+.cardBack {
+    font-size: 15px;
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+}
+
+.cardRotate>div {
+    backface-visibility: hidden;
+    transition: transform 300ms;
+    transition-timing-function: linear;
+}
+
+.cardRotate:hover .cardFront {
+    transform: rotateY(-180deg);
+}
+
+.cardRotate:hover .cardBack {
+    transform: rotateY(0deg);
+}
+.card-img-top {
+    height: 150px;
+    border-radius: 5px;
+}
+.card-text-front{
+    font-size: 14px;
 }

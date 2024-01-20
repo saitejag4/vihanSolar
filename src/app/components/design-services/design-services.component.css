@@ -140,3 +140,10 @@
     flex-direction: column;
     gap: 16px;
 }
+
+.copyrightcss{
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 100px;
+}
