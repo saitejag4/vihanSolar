@@ -61,9 +61,11 @@
     flex-wrap: wrap;
     text-align: center;
     z-index: 0;
+    margin: auto;
 }
 .card{
     border: none;
+    margin: 5px;
 }
 .aboutUsSectionImage{
     height: 350px;
@@ -71,11 +73,7 @@
     margin: 70px 0;
     border-radius: 10px;
 }
-.copyrightcss{
-    font-size: 12px;
-    line-height: 1.5;
-    margin-top: 50px;
-}
+
 .copyrightcss{
     text-align: center;
     font-size: 12px;
