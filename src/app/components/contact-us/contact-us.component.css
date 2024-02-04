@@ -99,7 +99,6 @@
     margin: auto;
     width: 35%;
     /* border: 3px solid green; */
-
 }
 .socialLogos{
     display: flex;
@@ -136,4 +135,23 @@
     font-size: 12px;
     line-height: 1.5;
     margin-top: 50px;
+}
+
+@media screen and (max-width: 475px) {
+
+    .center{
+        margin: auto;
+        width: 100%;
+    }
+
+    .socialLogos{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .center{
+        margin: auto;
+        width: 100%;
+    }
 }
