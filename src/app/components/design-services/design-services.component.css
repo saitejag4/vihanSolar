@@ -147,3 +147,25 @@
     line-height: 1.5;
     margin-top: 100px;
 }
+
+@media screen and (max-width: 475px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .column-1,
+    .column-2,
+    .column-3 {
+        width: 100%;
+    }
+
+    .our-services-column {
+        flex-direction: column;
+    }
+
+    .our-services-column-1,
+    .our-services-column-2,
+    .our-services-column-3 {
+        width: 100%;
+    }
+}
