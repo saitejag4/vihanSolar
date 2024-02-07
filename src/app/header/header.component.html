@@ -1,34 +1,14 @@
-<div class="nav-bar">
-    <div class="navText">
-        <div>
-            <a routerLink=""><img class="imgLogo" src="../../assets/photos/logo.png" alt=""></a>
-        </div>
-        <div class="fieldIcons">
-            <ul>
-                <li><a routerLink="">Home</a></li>
-                <li><a routerLink="aboutUs">About Us</a></li>
-                <li><a routerLink="designServices">Design Services</a>
-                    <!-- <div class="sub-menu-1">
-                        <ul>
-                            <li><a href="#">USA</a></li>
-                            <li><a href="#">India</a></li>
-                        </ul>
-                    </div> -->
-                </li>
-                <li><a routerLink="products">Products</a>
-                    <!-- <div class="sub-menu-1">
-                        <ul>
-                            <li><a href="#">Solar Rooftop Systems</a></li>
-                            <li><a href="#">Residential Solar Solutions</a></li>
-                            <li><a href="#">Ground Mounted Solutions</a></li>
-                            <li><a href="#">Solar Tracking Systems</a></li>
-                            <li><a href="#">Hybrid Solutions</a></li>
-                            <li><a href="#">Off-Grid Solutions</a></li>
-                        </ul>
-                    </div> -->
-                </li>
-                <li><a routerLink="contactUs">Contact Us</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+<nav>
+    <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="bi bi-grid-fill"></i>
+        </label>
+    <label><a routerLink=""><img class="imgLogo" src="../../assets/photos/logo.png" alt=""></a></label>
+    <ul>
+        <li><a routerLink="" (click)="hideNavbar()">Home</a></li>
+        <li><a routerLink="aboutUs" (click)="hideNavbar()">About Us</a></li>
+        <li><a routerLink="designServices" (click)="hideNavbar()">Design Services</a></li>
+        <li><a routerLink="products" (click)="hideNavbar()">Products</a></li>
+        <li><a routerLink="contactUs" (click)="hideNavbar()">Contact Us</a></li>
+    </ul>
+</nav>

@@ -11,5 +11,9 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  check = true;
+  hideNavbar() {
+    this.check = !this.check;
+}
 
 }
