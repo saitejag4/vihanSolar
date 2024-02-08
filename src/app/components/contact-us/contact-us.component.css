@@ -159,4 +159,35 @@
         margin: auto;
         width: 100%;
     }
+    .socialLogos{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        justify-content: space-between;
+    }
+    .instaLogo{
+        margin: 2.5px;
+        padding: 2.5px;
+        height: 30px;
+    }
+    .linkedinLogo{
+        margin: 2.5px;
+        padding: 2.5px;
+        height: 29px;
+    }
+    .pinterestLogo{
+        margin: 2.5px;
+        padding: 2.5px;
+        height: 27.5px;
+    }
+    .twitterLogo{
+        margin: 2.5px;
+        padding: 2.5px;
+        height: 31.5px;
+    }
+    .youtubeLogo{
+        margin: 2.5px;
+        padding: 2.5px;
+        height: 30px;
+    }
 }
